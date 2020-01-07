@@ -1,0 +1,494 @@
+body{
+    background: rgb(245, 244, 244);  
+    margin: 0;
+}
+
+/* Prelaoder */
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: rgb(54, 114, 153) url("images/preloader.svg") no-repeat center center;
+}
+
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: rgba(250, 94, 4,.5);
+    color: #fff;
+    padding: 6px 12px 9px 12px;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+}
+.back-to-top:focus {
+    background: rgb(250, 94, 4);
+    color: #fff;
+    outline: none;
+  }
+  
+  .back-to-top:hover {
+    background: rgba(250, 94, 4,.5);
+    color: #fff;
+  }
+
+nav{
+    background: white;
+}
+.def-nav{
+    margin-bottom: 3rem;
+}
+.phone-icon{
+    width: 1.3rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+.facebook-icon{
+    width: 1.65rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+.custom-nav{
+    background: rgb(245, 244, 244);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.contact{
+    font-weight: bold;
+}
+.custom-nav .nav-link:hover{
+    text-decoration: none;
+    color:rgb(0, 132, 255);
+}
+.def-nav .nav-link:hover{
+    text-decoration: none;
+    color:rgb(0, 132, 255);
+}
+.def-nav .nav-link{
+    text-decoration: none;
+    color:rgb(31, 32, 32);
+    transition: all ease-in .8s;  
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,132,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.dropdown .dropdown-content{
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    background: white;
+    min-width: 160px;
+    z-index: 1;
+    border-top: .2rem solid rgb(0, 132, 255);
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown:hover>.dropdown-content{
+    display: block;
+}
+.dropdown-item{
+    padding: 1rem 3rem 1rem .5rem;
+    border-bottom: .05rem solid rgb(245, 244, 244);
+    color: #999;
+    transition: all ease-in .5s;  
+}
+.dropdown-item:hover{
+    color:rgb(0, 132, 255);
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+.null{
+    background: white;
+   padding-top: 4rem;
+   margin:.1rem 2rem 0 2rem;
+}
+.null2{
+    background: white;
+   padding-top: 1.3rem;
+   margin:.1rem 2rem 0 2rem;
+}
+.home-slider .item1{
+    background-image: url(images/solar-complete-system.jpg);
+} 
+.home-slider .item2{
+    background-image: url(images/portfolio3.jpg);
+} 
+.home-slider .item3{
+    background-image: url(images/IMG-20191004-WA0030-1024x767.jpg);
+} 
+.home-slider .item4{
+    background-image: url(images/IMG-20190829-WA0011.jpg);
+} 
+.home-slider .item{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;    
+}
+.home-slider h1{
+    font-family: sans-serif;
+    color: black;
+    letter-spacing: .6rem;
+    background-image: linear-gradient(to right,rgba(131, 128, 128,.2),rgba(252, 245, 245,.5),rgba(160, 156, 156,.2));
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.home-slider .caption{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    cursor: e-resize;
+    padding-top: 13rem;   
+}
+.def-btn{
+    margin-top: .4rem;
+    padding: .6rem 1.5rem;
+    font-size: 1.5rem;
+    background: green;
+    border: .1rem solid green;
+    border-radius: 1.9rem;
+    transition: all ease-in .6s;
+}
+.def-btn:hover{
+    box-shadow: 0px 2px 5px rgb(5, 234, 250);
+    transform: translateY(-.2rem);
+    background: greenyellow;
+    color: #999;
+    border: .1rem solid greenyellow;
+}
+.owl-theme .owl-dots [class*=owl-] {
+    background: rgba(8, 223, 8, 0.8);
+    border-radius: 4rem;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+.solar-plant{
+    height: 380px;
+    width: 380px;
+}
+#welcome{
+    background: white;
+    margin:.1rem 2rem 0rem 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#welcome h1{
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+.def-btn2{
+    padding: .5rem 1.5rem;
+    margin-top: 1.5rem;
+    transition: all ease .3s;
+}
+.def-btn2:hover{
+    transform: scale(1.1);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+#our-product{
+    background: white;
+    margin:.1rem 2rem 0rem 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.product-picture{
+    width: 28rem;
+}
+.prod-para{
+    background-image: linear-gradient(to bottom, rgb(145, 137, 137) , white);
+    font-family: serif;
+    padding: 2rem 2rem;
+    margin-top: 1rem;
+}
+.prod-para h1{
+    font-weight: bold;
+}
+.prod-para p{
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+.def-btn3{
+    padding: .69rem 1.69rem;
+    border-radius: 4rem;
+    background:rgb(0, 132, 255);
+    transition: all ease-in .5s;
+}
+.def-btn3:hover{
+    background:rgb(0, 132, 255);
+    box-shadow: 1px 10px 2px #999;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+#orange-bckg{
+    background: rgb(250, 94, 4);
+    margin:.1rem 2rem 0rem 2rem;
+    padding: 4rem 1rem;
+}
+#orange-bckg h3{
+    font-weight: bold;
+}
+#orange-bckg p{
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+.def-btn4{
+    color: rgb(250, 94, 4);
+    background: white;
+    padding: .9rem 1.5rem;
+    border: 0;
+    transition: all ease-in-out .5s;
+}
+.def-btn4:hover{
+    color: rgb(250, 94, 4);
+    background: rgb(241, 195, 152);
+    padding: .9rem 1.5rem;
+    border: 0;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+#installation {
+    background: white;
+    margin:.1rem 2rem 0rem 2rem;
+    padding-top: 3rem;
+    padding-bottom: .5rem;
+}
+.san{
+    font-family: san-serif;
+}
+.brown{
+    color: #999;
+}
+#installation h2 {
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+#installation ul{
+    padding-left: 1rem;
+}
+.imgg{
+    background-image: url(images/IMG-20191004-WA0029.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25rem;
+}
+.install-img{
+    width: 530px;
+}
+.def-btn5{
+    padding: .8rem 1.3rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 3rem; 
+}
+.grey{
+    background: rgb(245, 244, 244);  
+}
+
+/*-----------------------------------------------------------------------------------------*/
+#academy{
+    background: white;
+    margin:.1rem 2rem 0rem 2rem;
+    padding-top: 3rem;
+    padding-bottom: .5rem;
+}
+.imggg{
+    background-image: url(images/IMG-20191004-WA0030-1024x767.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25rem;
+}
+.grey h2{
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+.grey h4{
+    font-size: 1.4rem;
+}
+.grey ul li{
+    line-height: 2rem;
+    padding-left: 0;
+}
+.grey ul{
+    padding-left: 1rem; 
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+.review .item1{
+    background-image: linear-gradient(to bottom,rgba(245, 17, 17, 0.2),rgba(252, 245, 245,.5),rgba(160, 156, 156,.2));
+} 
+.review .item2{
+    background-image: linear-gradient(to bottom,rgba(32, 17, 245, 0.2),rgba(252, 245, 245,.5),rgba(160, 156, 156,.2));
+} 
+.review .item3{
+    background-image: linear-gradient(to bottom,rgba(63, 245, 17, 0.2),rgba(252, 245, 245,.5),rgba(160, 156, 156,.2));
+} 
+.review .item{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin:.1rem 2rem 0rem 2rem; 
+    padding-top: 1rem;
+    height: 18%;
+}
+.review h1{
+    font-family: sans-serif;
+    color: black;
+    letter-spacing: .6rem;
+    background-image: linear-gradient(to right,rgba(131, 128, 128,.2),rgba(252, 245, 245,.5),rgba(160, 156, 156,.2));
+    padding-bottom: 2rem;
+}
+.review .caption{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    cursor: e-resize;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+#foot{
+    background: rgb(31, 32, 32);
+    padding: 2rem 0 5rem 0;
+}
+.bold{
+    font-weight: 600;
+}
+.blue{
+    color: rgb(0, 153, 255);
+}
+.blue-white{
+    color: linear-gradient(to right, rgb(0, 153, 255), white);
+}
+.foot-img{
+    width: 4rem;
+    float: left;
+}
+.foot-para{
+    padding-left: 5rem;
+    border-bottom: .1rem solid white;
+}
+.foot-para1{
+    margin-bottom: 0;
+}
+.foot-para2{
+    margin-bottom: .4rem;
+}
+.foot-link{
+    padding-left: 2rem;
+}
+.footlinks ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footlinks .dropdown-item{
+    color: black;
+    padding: .5rem 1rem;
+}
+.footlinks ul li {
+    padding-bottom: 0;
+    margin-bottom: .6rem;
+}
+.footlinks .dropdown{
+    margin-bottom: .3rem;
+    padding-bottom: 0;
+    width: 8rem;
+}
+.footlinks .dropdown-content{
+    border-top: .2rem solid rgb(32, 34, 36);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------RESPONSIVE DESIGN--------------------------------------*/
+@media only screen and (max-width: 880px) {
+    .hide{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .solar-plant{
+        height: 380px;
+        width: 380px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .home-slider .item{
+        height: 30rem;    
+    }
+    .home-slider .caption{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        cursor: e-resize;
+        padding-top: 10rem;   
+    }
+    .home-slider h1{
+        font-family: sans-serif;
+        color: black;
+        font-size: 2.1rem;
+        letter-spacing: .5rem;
+        background: rgba(255, 255, 255, 0.5);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .unrow{
+        display: block;
+    }
+    .solar-plant{
+        margin-left: auto;  
+    }
+    .prod-img{
+        display: block;
+        padding-left: 5%;
+    }
+}
+@media only screen and (max-width: 776px) {
+    .home-slider .item{
+        height: 25rem;    
+    }
+    .home-slider .caption{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        cursor: e-resize;
+        padding-top: 6rem;   
+    }
+    .home-slider h1{
+        font-family: sans-serif;
+        color: black;
+        letter-spacing: .4rem;
+        background: rgba(255, 255, 255, 0.5);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .product-picture{
+        height: 20rem;
+    }
+    .solar-plant{
+        height: 20rem;
+    }
+    
+}

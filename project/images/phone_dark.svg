@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="phone_dark_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g id="Telefon">
+	<g>
+		<path fill="#666666" d="M17.585,10.763c0,0-3.667,27.393,18.828,50.943l13.612,0.272l1.556-1.279l-8.618-12.571l-4.494,1.397
+			L27.008,20.123l4.485-2.918l-1.64-15.058h-2.02L17.585,10.763z"/>
+		<polygon fill="#666666" points="32.959,2.022 34.452,16.424 37.553,15.543 36.7,2.375 		"/>
+		<polygon fill="#666666" points="45.236,46.805 54.348,59.184 56.637,56.943 48.688,45.354 		"/>
+	</g>
+</g>
+</svg>
