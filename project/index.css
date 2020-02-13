@@ -169,8 +169,7 @@ nav{
 
 /*--------------------------------------------------------------------------------------------------------------*/
 .solar-plant{
-    height: 380px;
-    width: 380px;
+    height: 280px;
 }
 #welcome{
     background: white;
@@ -200,7 +199,8 @@ nav{
     padding-bottom: 3rem;
 }
 .product-picture{
-    width: 28rem;
+    height: 380px;
+    margin-bottom: 2rem;
 }
 .prod-para{
     background-image: linear-gradient(to bottom, rgb(145, 137, 137) , white);
@@ -210,10 +210,11 @@ nav{
 }
 .prod-para h1{
     font-weight: bold;
+    font-size: 1.3rem;
 }
 .prod-para p{
     line-height: 2rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 .def-btn3{
     padding: .69rem 1.69rem;
@@ -266,9 +267,9 @@ nav{
 .brown{
     color: #999;
 }
-#installation h2 {
+#installation h4 {
     font-weight: bold;
-    letter-spacing: .1rem;
+    margin-top: 1.3rem;
 }
 #installation ul{
     padding-left: 1rem;
@@ -491,4 +492,9 @@ nav{
         height: 20rem;
     }
     
+}
+@media only screen and (max-width: 430px) {
+    .contact{
+        display: none;
+    }
 }
